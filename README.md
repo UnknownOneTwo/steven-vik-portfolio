@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Preview
-📎 [View on GitHub Pages](https://unknownonetwo.github.io/steven-vik-portfolio/) *(optional)*
+📌 [View on GitHub Pages](https://unknownonetwo.github.io/steven-vik-portfolio/) *(optional)*
 
 ---
 
@@ -18,6 +18,7 @@ Includes advanced features like:
 - Animated components (Framer Motion)
 - Fully responsive layout
 - Production-ready error handling & logging
+- 🔁 Auto-deployment script for Hostinger + GitHub push
 
 ---
 
@@ -52,12 +53,15 @@ npm run dev
 │   ├── _app.js          # Global wrapper
 │   └── api/contact.js   # API for contact form
 ├── public/              # Static assets
-│   ├── profile.jpg
+│   ├── profile.png      # Avatar image (new optimized version)
 │   ├── resume.pdf
 │   └── favicon.ico
 ├── styles/globals.css   # Global styles
 ├── tailwind.config.js   # Tailwind theme config
 ├── utils/debug.js       # Logging utils
+├── scripts/             # Automation scripts
+│   ├── Deploy-To-Hostinger.ps1   # FTP deploy script
+│   └── Debug-LocalBuild.ps1      # Troubleshooting helper
 └── package.json         # Project metadata and scripts
 ```
 
@@ -78,6 +82,7 @@ npm run dev
 - **EmailJS** – Contact form backend
 - **React Error Boundary** – Crash protection
 - **GitHub CLI** – Auto-publish workflows
+- **PowerShell 7+** – Deployment automation
 
 ---
 
