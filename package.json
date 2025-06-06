@@ -1,0 +1,69 @@
+{
+  "name": "steven-vik-portfolio",
+  "version": "2.1.0",
+  "description": "Professional portfolio website for Steven J. Vik - Systems Architect & Cybersecurity Engineer",
+  "private": true,
+  "author": "Steven J. Vik",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "analyze": "ANALYZE=true next build",
+    "clean": "rmdir /s /q .next 2>nul & rmdir /s /q out 2>nul & rmdir /s /q node_modules\\.cache 2>nul",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.1.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnknownOneTwo/steven-vik-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "next.js",
+    "react",
+    "tailwindcss",
+    "cybersecurity",
+    "systems-architecture",
+    "devops",
+    "automation"
+  ],
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
